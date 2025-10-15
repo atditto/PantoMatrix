@@ -2,10 +2,10 @@
 set -e
 
 # Update package lists
-sudo apt-get update
+apt-get update
 
 # Install system dependencies
-sudo apt-get install -y python3.9 python3.9-venv python3.9-dev bzip2 tmux git git-lfs libglu1-mesa-dev
+apt-get install -y python3.9 python3.9-venv python3.9-dev bzip2 tmux git git-lfs libglu1-mesa-dev
 
 # Create and activate virtual environment
 python3.9 -m venv py39

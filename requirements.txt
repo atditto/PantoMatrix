@@ -36,7 +36,7 @@ eval_type_backport
 
 wget
 gradio==4.44.1
-av==11.0.0
+av
 ffmpeg-python
 mediapipe
 batch-face @ git+https://github.com/elliottzheng/batch-face.git@master

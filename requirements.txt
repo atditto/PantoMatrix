@@ -39,7 +39,7 @@ gradio==4.44.1
 av
 ffmpeg-python
 mediapipe
-batch-face @ git+https://github.com/elliottzheng/batch-face.git@master
+batch-face
 decord==0.6.0
 imageio==2.33.0
 imageio-ffmpeg==0.4.9

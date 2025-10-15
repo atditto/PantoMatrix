@@ -7,14 +7,14 @@ import librosa
 
 # Example parameters
 stride = 20
-motion_length = 64
-speaker_target = 2
+motion_length = 128
+speaker_target = 12
 use_additional = False
 
-root_dir = './beat_english_v2.0.0/'
+root_dir = './BEAT2/beat_chinese_v2.0.0/'
 output_dir = "./datasets/data_json/"
 os.makedirs(output_dir, exist_ok=True)
-train_test_split_path = './beat_english_v2.0.0/train_test_split.csv'
+train_test_split_path = './BEAT2/beat_chinese_v2.0.0/train_test_split.csv'
 df = pd.read_csv(train_test_split_path)
 
 filtered_df = df[(df['id'].str.split('_').str[0].astype(int) == speaker_target) & (df['type'] != 'additional')]

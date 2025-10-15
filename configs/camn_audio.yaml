@@ -16,9 +16,9 @@ data:
   class_name: "BEAT2Dataset"
   train_bs: 64
   meta_paths:
-    - "./datasets/data_json/beat2_s20_l128_speaker2.json"
+    - "./datasets/data_json/beat2_s20_l128_speaker12.json"
   test_meta_paths: 
-    - "./datasets/data_json/beat2_s20_l128_speaker2.json"
+    - "./datasets/data_json/beat2_s20_l128_speaker12.json"
   pose_norm: False
   pose_length: 128
   stride: 20

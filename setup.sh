@@ -8,8 +8,8 @@ sudo apt-get update
 sudo apt-get install -y python3.9 python3.9-venv python3.9-dev bzip2 tmux git git-lfs libglu1-mesa-dev
 
 # Create and activate virtual environment
-python3.9 -m venv /content/py39
-source /content/py39/bin/activate
+python3.9 -m venv py39
+source py39/bin/activate
 
 # Upgrade pip
 pip install --upgrade pip==24.0
